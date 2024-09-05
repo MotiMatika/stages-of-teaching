@@ -9,10 +9,10 @@
 
 #***************************************************
 
-a="moti "
+a="ron "
 print(a)
 
-b='yair'
+b='efrayim'
 print(b)
 
 print("my name is: ",a,b)
