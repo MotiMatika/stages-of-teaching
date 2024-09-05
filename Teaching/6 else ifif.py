@@ -1,36 +1,41 @@
                 #התכנית מקבלת תו מהמשתמש ומודיעה אם התו נמצא או לא נמצא
-#txt = "abcdef"                              #השמת מחרוזת קבועה 
-#x=input("enter a letter ")                  # קלט-ניחוש האות ע"י המשתמש
-#if x in txt:                                #בדיקה האם התו נמצא במחרוזת הקבועה
-#	print("great",x," is in the word")      #פלט-אמת,אם התו נמצא
-#else:                                       # אם התו לא נמצא... מ
-#	print("sorry",x," isn't in the word")   #פלט- התו לא נמצא
+#txt = "abcdef"                                 #השמת מחרוזת קבועה 
+#x=input("enter a letter ")                     # קלט-ניחוש האות ע"י המשתמש
+#if x in txt:                                   #בדיקה האם התו נמצא במחרוזת הקבועה
+#	print("great",x," is in the word")          #פלט-אמת,אם התו נמצא
+#else:                                          # אם התו לא נמצא... מ
+#	print("sorry",x," isn't in the word")       #פלט- התו לא נמצא
 
-#txt = "12345"                              #השמת מחרוזת קבועה 
-#x=input("enter a number ")                  # קלט-ניחוש האות ע"י המשתמש
-#if x in txt:                                #בדיקה האם התו נמצא במחרוזת הקבועה
-#	print("great",x," is in the string")      #פלט-אמת,אם התו נמצא
-#else:                                       # אם התו לא נמצא... מ
+#txt = "12345"                                  #השמת מחרוזת קבועה 
+#x=input("enter a number ")                     # קלט-ניחוש האות ע"י המשתמש
+#if x in txt:                                   #בדיקה האם התו נמצא במחרוזת הקבועה
+#	print("great",x," is in the string")        #פלט-אמת,אם התו נמצא
+#else:                                          # אם התו לא נמצא... מ
 #	print("sorry",x," isn't in the string")
 
 
-
+# x='moti'
+# guess=input("what is your name ? ")
+# if guess!='moti':
+#     print ("wrong name")
+# else:
+#     print("you are wright")   
 
 
                     #התכנית מקבלת את גיל המשתמש ומודיעה על המוסד בו הוא נמצא
-age =float( input("what is your age ?  "))
-if  12 <= age <18:
-	print("you are in high school")
-elif 6 <= age <12:	
-	print("you are in elemantary school")
-elif 4 <= age < 6:	
-	print("you are in kindergarden")
-elif 0 <= age < 4:	
-	print("you are too young ")
-elif 18 <= age <=21:	
-	print("you are a soldier ")
-else:
-	print("you are too old ")
+# age =float( input("what is your age ?  "))
+# if  12 <= age <18:
+# 	print("you are in high school")
+# elif 6 <= age <12:	
+# 	print("you are in elemantary school")
+# elif 4 <= age < 6:	
+# 	print("you are in kindergarden")
+# elif 0 <= age < 4:	
+# 	print("you are too young ")
+# elif 18 <= age <=21:	
+# 	print("you are a soldier ")
+# else:
+# 	print("you are too old ")
 	
 	                #השפעת טיפוס הערך שהמשתמש מקליד על הפלט
 #x=input("enter number or string:")
@@ -132,28 +137,28 @@ else:
 #	print("your number is equal to ",x)	
 	
 	
-print("Choose a letter ",)
-choice1 = (input("What is Your Choice?  "))
-x=("j")
-if choice1>x:
-	print("your letter is bigger than ",x)
-elif choice1<x:
-	print("your letter is smaller than ",x)
-else:
-	print("your letter is the same as ",x)	
+# print("Choose a letter ",)
+# choice1 = (input("What is Your Choice?  "))
+# x=("j")
+# if choice1>x:
+# 	print("your letter is bigger than ",x)
+# elif choice1<x:
+# 	print("your letter is smaller than ",x)
+# else:
+# 	print("your letter is the same as ",x)	
 
 
 
-#print("Choose a Number ")
-#choice1 = int(input("What is Your Choice?  "))
-#print("Choose another Number ")
-#choice2 = int(input("What is Your Choice?  "))
-#if choice1 == choice2:
-#	print("You Chose the same number")
-#elif choice2 < choice1:
-#	print("Your first number is bigger")
-#elif choice2 >choice1:	
-#	print("Your second number is bigger")
+# print("Choose a Number ")
+# choice1 = int(input("What is Your Choice?  "))
+# print("Choose another Number ")
+# choice2 = int(input("What is Your Choice?  "))
+# if choice1 == choice2:
+# 	print("You Chose the same number")
+# elif choice2 < choice1:
+# 	print("Your first number is bigger")
+# elif choice2 >choice1:	
+# 	print("Your second number is bigger")
 
 
 #print("Choose a Number Between 1-3")
@@ -177,4 +182,23 @@ else:
 #elif choice == "c":	
 #	print("You Chose c.")
 #else:
-#	print("You Chose Something Else")
+#	print("You Chose Something Else"
+
+
+
+#מקבל הכל, ובודק ערכים לפי טבלת אסקי
+# num1=input("enter ")
+# num2=input("enter ")
+# if num1 > num2:
+#     print("num1>num2")
+# else:
+#     print("num1<num2")
+
+
+#מסרב לקבל סימנים אלא רק מספרים
+# num1=int(input("enter "))
+# num2=int(input("enter "))
+# if num1 > num2:
+#     print("num1>num2")
+# else:
+#     print("num1<num2")
