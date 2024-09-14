@@ -99,17 +99,30 @@ HANGMAN_PHOTOS = {
 
 
 
-word="window"
-all_letters=[]
-i=1
-while i<=30:
-    letter=input("guess a letter   ")
-    if letter not in word:
-        print(HANGMAN_PHOTOS[str(i)])
-        i+=1
-    else:
-        all_letters.append(letter)
-        print(all_letters)
+word="ןושאר"
+length=len(word)
+correct_letters   = []
+incorrect_letters = []
+num_of_paintings=1
+
+while num_of_paintings <= 7:
+    letter = input("\nGuess a letter   ")
+    if letter in incorrect_letters or correct_letters:
+        print("You already typed this letter")
+    elif letter not in word:                              #אותיות שגויות
+        print(HANGMAN_PHOTOS[str(num_of_paintings)])
+        num_of_paintings +=1
+        incorrect_letters.append(letter)
+        print("Incorrect_Letters",incorrect_letters)
+       
+    else:                                               #אותיות נכונות
+        correct_letters.append(letter)
+        print("Correct_Letters",correct_letters)
+        if len(correct_letters) == length:
+            print("\nYou guessed the word !!! Well done !!! ")
+            break
+print("\nThe word is : ",word)
+print()
 
 
 
