@@ -1,11 +1,11 @@
                                             #פונקציות
-def moti():          #הגדרת הפונקציה עם שם
-	print("wow")     # מה הפונקציה תבצע
+# def moti():          #הגדרת הפונקציה עם שם
+# 	print("wow")     # מה הפונקציה תבצע
 #moti()              #קריאה לפונקציה לבצע
 
 
-def squre(number):             #הגדרת הפונקציה עם שם ופרמטר
-	print(number**2)           #הפונקציה תעלה בריבוע מספר שנקליד
+# def squre(number):             #הגדרת הפונקציה עם שם ופרמטר
+# 	print(number**2)           #הפונקציה תעלה בריבוע מספר שנקליד
 #squre(3)                      #הפונקציה מקבלת את הפרמטר 3
 
 #def mystery(index):           #הגדרת הפונקציה עם שם ופרמטר
@@ -100,37 +100,101 @@ def squre(number):             #הגדרת הפונקציה עם שם ופרמט
 #print (sum)           
 
                   #שימוש בפונקציה מיין
-def a():                    #הגדרת פונקציה 
-	print("moti")           #
+# def a():                    #הגדרת פונקציה 
+# 	print("moti")           #
 	
-def b():                    #הגדרת פונקציה
-	print("yair")           #
+# def b():                    #הגדרת פונקציה
+# 	print("yair")           #
 	
-def c():                    #הגדרת פונקציה
-	print("is a teacher")              #
+# def c():                    #הגדרת פונקציה
+# 	print("is a teacher")              #
 	
-def main():                 #הגדרת הפונקציה מיין שמכילה את כל הפונקציות שרוצים להריץ
-	a()                     #הפונקציה איי
-	b()                     #הפונקציה בי
-	c()                     #הפונקציה סי
-	moti()                  #הפונקציה מוטי
-	squre(4)                #הפונקציה סקוור עם פרמטר 4 שיעלה בריבוע
+# def main():                 #הגדרת הפונקציה מיין שמכילה את כל הפונקציות שרוצים להריץ
+# 	a()                     #הפונקציה איי
+# 	b()                     #הפונקציה בי
+# 	c()                     #הפונקציה סי
+# 	moti()                  #הפונקציה מוטי
+# 	squre(4)                #הפונקציה סקוור עם פרמטר 4 שיעלה בריבוע
 	
-if __name__ == "__main__":  #תחביר מורכב לביצוע כל 5 הפונקציות שכלולות במיין
-	main()                  #קריאה לפונקציה מיין שתבצע את עצמה
+# if __name__ == "__main__":  #תחביר מורכב לביצוע כל 5 הפונקציות שכלולות במיין
+# 	main()                  #קריאה לפונקציה מיין שתבצע את עצמה
+
+
+#שיטה 1
+# def squre(number):             #הגדרת הפונקציה עם שם ופרמטר
+# 	print(number**2)           #הפונקציה תעלה בריבוע מספר שנקליד
+# squre(3)
+
+#שיטה 2           
+# def squre(number):            #הגדרת הפונקציה עם שם ופרמטר
+# 	sqr=number**2         		#העלאה בריבוע מספר שנקליד
+# 	return sqr					#הפונקציה תחזיר את המספר בריבוע
+
+# print(squre(3))				#הערך יודפס
 
 
 
-def squre(number):             #הגדרת הפונקציה עם שם ופרמטר
-	print(number**2)           #הפונקציה תעלה בריבוע מספר שנקליד
-print(squre)           
+                            #הפונקציה בודקת איזה משפט ארוך ביותר
+# sentence_1="sentence_1 b c"
+# sentence_2="a b ב ב ב"
+# sentence_3="a"
+
+# def long_word(sentence): 
+#     return len(sentence.split())
+
+# if long_word(sentence_1)>long_word(sentence_2) and long_word(sentence_1)>long_word(sentence_3):
+#     print("sentence_1 is the longest sentence")
+    
+# elif long_word(sentence_1)>long_word(sentence_2) and long_word(sentence_3)>long_word(sentence_1):
+#     print("sentence_3 is the longest sentence") 
+      
+# elif long_word(sentence_1)<long_word(sentence_2) and long_word(sentence_2)>long_word(sentence_3):
+#     print("sentence_2 is the longest sentence") 
+	
+# else: 
+#     long_word(sentence_1)<long_word(sentence_2) and long_word(sentence_2)<long_word(sentence_3)
+#     print("sentence_3 is the longest sentence") 	
+
+#print(max(long_word(sentence_1),long_word(sentence_2),long_word(sentence_3)))
+
+
+#מדפיסה את הגדול מבין 2 מספרים
+# def bigger(num1,num2):
+#     if num1>num2:
+#         print(num1,"is bigger than",num2)
+#     else:
+#         print(num2,"is bigger than",num1)
+
+# bigger(12,30)
+
+# def persona_details():
+#     print("\nfirst name  : Moti")
+#     print("second name : Yair")
+#     print("I.D         : 058676115")
+#     print("Mobile      : 052-3864688\n")
+# persona_details()
+
+#הפונקציה תדפיס את המספרים
+# def print123():
+#     print("1")
+#     print("2")
+#     print("3")
+# print(print123())
+
+# # מדפיס אותי
+# def printMe():
+#     print("Me!")
+# printMe()
 
 
 
 
-
-
-
+def print_Calculation(a,b):
+    c = a+b                         #סוכמת 2 מספרים
+    print(c+3)                     #מוסיפה לסכום 3 ומדפיסה
+    return c                        #מחזירה את הסכום הראשון
+result = print_Calculation(4,5)     #מקבלת 2 מספרים
+print("The result is: ", result)
 
 
 
