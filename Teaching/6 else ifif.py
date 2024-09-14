@@ -22,6 +22,60 @@
 #     print("you are wright")   
 
 
+# num=11
+# print(num/2)
+# print(num%2)
+
+#הקוד מזהה מספרים זוגיים
+# num=15
+# if num % 2 == 0:
+#     print(num,"is zugi")
+# else:
+#     print(num,"is i-zugi")   
+
+#   הקוד מזהה כפולות של 5
+# num=115
+# if num % 5 == 0 :
+#     print("divided to 5")
+# else:
+#     print("not divided to 5")  
+
+# הקוד-משחק בודק אם האות שהוכנסה נמצאת במילה
+# word="# $ % ^"
+# print(word)
+# letter = input("תוא סנכה ")
+# if letter in word:
+#     print("\nדובכ לכ")
+#     print("^ ^")
+#     print("0 0")
+#     print(" |  ")
+#     print("\ /\n")
+# else:
+#     print("תועט")
+#     print("0 0")
+#     print(" |  ")
+#     print(" ^")
+
+
+# word="jeru"
+# print(word)
+# counter=0
+# li=[]
+
+# letter = input("guess ")
+# while counter<4:
+#     if letter in word:
+#         print("\nwell done")             
+#         counter=counter+1
+#         li.append(letter)
+#         print(li)        
+#         letter = input("guess ")
+#     else:
+#         print(man[counter])
+#         counter=counter+1
+#         letter = input("guess ")
+
+
                     #התכנית מקבלת את גיל המשתמש ומודיעה על המוסד בו הוא נמצא
 # age =float( input("what is your age ?  "))
 # if  12 <= age <18:
@@ -202,3 +256,42 @@
 #     print("num1>num2")
 # else:
 #     print("num1<num2")
+
+
+
+# הקוד מאפשר לבחור איזו מילת-קוד המשתמש מעדיף ובודק את הזיכרון של המשתמש
+print("\nWhat code-word you preffer ? ")
+print("1-- color you like  2-- pet you like  3-- artist you like ")
+choice=int(input("What is your choice ? "))
+if choice == 1:
+    code_word=input("Choose your favorite color ")
+    print("Your code word is","'",code_word,"'")
+if choice == 2:
+    code_word=input("Choose your favorite pet ")
+    print("Your code word is","'",code_word,"'")
+if choice == 3:
+    code_word=input("Choose your favorite artist ")
+    print("Your code word is","'",code_word,"'")
+print("let's check your memory !")
+key_word = input("What is your code_word ? ")
+if code_word== key_word:
+    print("great !!")
+else:
+    print("try again")
+
+
+
+
+print("\nPlease don't forget your code-word !!!\n")
+
+# a="what day is it today ?"
+# b=" i am moti"
+# c="my cat"
+# d="hi"
+
+# # print(a.split())
+# # print(len(a.split()))
+# # x=len(a.split())
+# # y=len(b.split())
+# if len(a.split())>len(b.split()):
+#     print("yes")
