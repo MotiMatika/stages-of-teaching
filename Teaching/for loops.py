@@ -76,3 +76,28 @@
 #   print(x)                      #ותדפיס את כולם
 # else:                           #אחרת
 #   print("Finally finished!")    #תדפיס גם את המשפט
+
+#סכום מספרים עוקבים
+# sum=0
+# for num in range(1,5):
+#     sum=num+sum
+# print(sum)
+
+#לוח הכפל
+# for i in range(1,11):
+#     for j in range(1,11):
+#         print("{:5}".format(i*j),end=" ")
+#     print("")
+
+
+#פקודת  format
+#מיקום וריווח של מילים בטור
+print("{:20}".format("moti"))           #רווח מימין
+print("{:>20}".format("moti"))          #רווח משמאל
+print("{:^20}".format("moti"))          #רווח מימין ומשמאל
+print("{:20} yair".format("moti"))      #רווח מימין שמפריד בין 2 המילים
+print("{:*^20} yair".format(" moti "))  #רווח מימין ומשמאל שמתמלא בכוכבים
+
+#קיצור שבר עשרוני
+print("{:.5}".format(2/3)) #יופיעו 5 ספרות מימין לנקודה העשרונית
+print("{:.3}".format(2/3)) #יופיעו 3 ספרות מימין לנקודה העשרונית
